@@ -4,7 +4,9 @@
       <link rel="stylesheet" href="{{asset('css/app.css')}}"> 
           <link rel="stylesheet" href="{{asset('css/general/style.css')}}">  
           <link rel="stylesheet" href="{{asset('css/general/footer.css')}}"> 
-          <link rel="stylesheet" href="{{asset('css/general/parallax.css')}}">    
+          <link rel="stylesheet" href="{{asset('css/general/parallax.css')}}">  
+          <link rel="stylesheet" href="{{asset('css/general/newsletter.css')}}">  
+           
           <link rel="stylesheet" href="{{asset('css/font-awesome/css/font-awesome.min.css')}}">
 
      <!-- <script src="{{asset('js/main.js')}}"></script> -->

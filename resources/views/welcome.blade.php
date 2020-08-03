@@ -5,4 +5,5 @@
  @include('fasoHebdo.slider')
 @include('fasoHebdo.card')
 @include('fasoHebdo.parallax')
+@include('fasoHebdo.newsletter')
 @include('fasoHebdo.footer')

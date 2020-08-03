@@ -1,3 +1,6 @@
+
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +36,14 @@
         </div>
     </ul>
     <span class="navbar-text">
-   <button class="btn btn-primary"><i class="fa fa-sign-in"></i> <a class="nav-link" href=" "><span class="nav-label"> Se connecter</span></a></button> 
-    </span>
+  
+     <button class="btn btn-primary">
+     <i class="fa fa-sign-in"></i> 
+     <a class="nav-link" href="{{ route('login') }}">
+      <span class="nav-label"> Se connecter</span></a></button> 
+    
+  
+  </span>
   </div>
 </nav>
 <br>

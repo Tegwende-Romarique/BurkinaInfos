@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="{{asset('css/footer.css')}}"> 
 
 <!--footer starts from here-->
-<footer class="le-footer">
+<footer class="footer">
 <div class="container bottom_border">
 <div class="row">
 <div class=" col-sm-4 col-md col-sm-4  col-12 col">
@@ -64,9 +64,9 @@
 <!--headin5_amrc ends here-->
 
 <ul class="footer_ul2_amrc">
-<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
-<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
-<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fa fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fa fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fa fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
 </ul>
 <!--footer_ul2_amrc ends here-->
 </div>
@@ -87,10 +87,10 @@
 <p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
 
 <ul class="social_footer_ul">
-<li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
-<li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
-<li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
-<li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+<li><a href="http://webenlance.com"><i class="fa fa-facebook-f"></i></a></li>
+<li><a href="http://webenlance.com"><i class="fa fa-twitter"></i></a></li>
+<li><a href="http://webenlance.com"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="http://webenlance.com"><i class="fa fa-instagram"></i></a></li>
 </ul>
 <!--social_footer_ul ends here-->
 </div>
