@@ -1,0 +1,21 @@
+
+
+/* le css des breaking news de l'accueil */
+.breaking-news{
+	margin-top: -10px; 
+}
+/* le css du carousel de l'accueil */
+.accueil-carousel{
+	margin-top:-50px;
+}
+
+.les-titres-de-la-page-accueil{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgb(172, 172, 172);
+    color: #fff;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}

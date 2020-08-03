@@ -33,7 +33,7 @@
         </div>
     </ul>
     <span class="navbar-text">
-    <a class="nav-link" href=" ">Se connecter</a>
+   <button class="btn btn-primary"><i class="fa fa-sign-in"></i> <a class="nav-link" href=" "><span class="nav-label"> Se connecter</span></a></button> 
     </span>
   </div>
 </nav>

@@ -1,5 +1,5 @@
 @extends('layouts/app')
-@extends('layouts/include')
+@extends('layouts/admin/admin')
 @section('content')
   <body>
   	<div id="page-container" class="main">

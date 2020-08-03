@@ -10,8 +10,8 @@
 </head>
 <body>
 <main role="main"> 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+    <div id="carouselExampleControls " class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner accueil-carousel">
           <div class="carousel-item active">
 			<img src="pictures/sourire.jpg" class="d-block w-100" alt="...">
 			<div class="container">
