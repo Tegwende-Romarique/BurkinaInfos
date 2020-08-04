@@ -16,7 +16,7 @@ class RubriquesController extends Controller
 
      public function publier()
     {
-        $admin=Rubrique::all();
+        $admin=Rubrique::paginate(3);
 
         return view('Rubrique/liste',['rubrique'=>$admin]);
     }

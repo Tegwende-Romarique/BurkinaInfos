@@ -27,6 +27,6 @@
 </div>
 
 <div class="row d-flex justify-content-center">
-
+{{$rubrique->links()}}
 </div>
 @endsection

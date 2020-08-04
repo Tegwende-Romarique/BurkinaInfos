@@ -9,8 +9,15 @@
     <script src="main.js"></script>
 </head>
 <body>
-<main role="main"> 
+<main role="main">
     <div id="carouselExampleControls " class="carousel slide" data-ride="carousel">
+
+ <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+
         <div class="carousel-inner accueil-carousel">
           <div class="carousel-item active">
 			<img src="pictures/sourire.jpg" class="d-block w-100" alt="...">
@@ -22,7 +29,7 @@
               </div>
 			</div>
 		  </div>
-		  
+
           <div class="carousel-item">
 			<img src="pictures/sourire.jpg" class="d-block w-100" alt="...">
 			<div class="container">
@@ -42,7 +49,7 @@
               </div>
 			</div>
 		  </div>
-		  
+
 
           <div class="carousel-item">
 			<img src="pictures/sourire.jpg" class="d-block w-100" alt="...">
@@ -55,7 +62,7 @@
 			</div>
           </div>
 		</div>
-		
+
 
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -11,8 +11,16 @@ class ArticlesController extends Controller
 {
 
     public function liste(){
-   
-        return view('Article/liste');
+        $rubirques= Rubrique::all();
+        $articles= Article::all();
+        return view('Article/liste', ['rubirque'=>$rubirques, 'article'=>$articles]);
+    }
+
+    public function breakingNews()
+    {
+        $rubriques= Rubrique::all();
+        $articles= Article::all();
+        return view('/accueil', ['rubrique'=>$rubriques, 'article'=>$articles]);
     }
 
 

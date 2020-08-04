@@ -45,6 +45,7 @@ Route::post('rubrique-update', 'RubriquesController@update');
 Route::get('forme-Article', 'ArticlesController@forme');
 Route::post('Article/forme', 'ArticlesController@store');
 Route::get('Article/liste', 'ArticlesController@liste');
+Route::get('/', 'ArticlesController@breakingNews');
 
 // les Routes des mails
 Route::get('forme-mail', 'MailsController@create');
