@@ -8,7 +8,7 @@
     </div>
     @endif
     <h1 class="armelle"> ENREGISTREMENt d'UNE RUBRIQUE</h1>
-    <a href="{{url('/')}}" class="liens">
+    <a href="{{url('Rubrique/liste')}}" class="liens">
       <button type="button" class="btn btn-success btn-xl btn3d btn-xs">
       <i class="fa fa-cloud"></i>Voir les Rubriques
       </button>
@@ -25,15 +25,6 @@
               </div>
             </div>
 
-             <div class="form-row">
-              <div class="form-group col-md-11">
-                <label for="inputEmail4">Status</label>
-                <select class="form-control" required name="status">
-                  <option value="inactif">Actif</option>
-                  <option value="actif">Inactif</option>
-                </select>
-              </div>
-            </div>
             <button type="submit" class="btn btn-primary btn-sm btn3d"><i class="fa fa-cloud"></i>Valider</button>
             <button type="reset" class="btn btn-danger btn-sm btn3d"><i class="fa fa-ok"></i>Annuler</button>
 

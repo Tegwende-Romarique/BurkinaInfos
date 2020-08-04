@@ -34,7 +34,7 @@ Route::get('supprimer-visiteur', 'VisiteursController@destroy');
 // les controllers du des Rubriques
 Route::get('Rubrique/forme', 'RubriquesController@forme');
 Route::post('Rubrique/forme', 'RubriquesController@store');
-// Route::get('Rubrique/liste', 'RubriquesController@liste');
+Route::get('Rubrique/liste', 'RubriquesController@publier');
 Route::get('Supprimer-rubrique', 'RubriquesController@destroy');
 Route::get('modifier-rubrique', 'RubriquesController@editer');
 Route::post('rubrique-update', 'RubriquesController@update');

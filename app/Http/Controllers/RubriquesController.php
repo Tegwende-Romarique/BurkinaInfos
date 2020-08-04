@@ -14,12 +14,12 @@ class RubriquesController extends Controller
         return view('/accueil',['rubrique'=>$rubriqu]);
     }
 
-    //  public function publier()
-    // {
-    //     $rubriqu=Rubrique::all()
+     public function publier()
+    {
+        $admin=Rubrique::all();
 
-    //     return view('/accueil');
-    // }
+        return view('Rubrique/liste',['rubrique'=>$admin]);
+    }
 
 
    public function forme()
@@ -31,7 +31,7 @@ class RubriquesController extends Controller
     {
         $rubriqu=new Rubrique();
         $rubriqu->categorie=$request->categorie;
-        $rubriqu->status=$request->status;
+        // $rubriqu->status=$request->status;
         $rubriqu->save();
         return redirect('Rubrique/forme')->with('message','Rubrique Enregistrée avec succes!');
     }
@@ -50,7 +50,7 @@ class RubriquesController extends Controller
     public function update(Request $request){
         $rubriqu=Rubrique::find($request->id);
         $rubriqu->categorie=$request->categorie;
-        $rubriqu->status=$request->status;
+        // $rubriqu->status=$request->status;
         $rubriqu->update();
     }
 

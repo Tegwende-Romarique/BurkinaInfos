@@ -19,9 +19,6 @@
                 <td>{{$rubriqu->id}}</td>
                 <td>{{$rubriqu->categorie}}</td>
                 <td class="text-center"><a class='btn btn-primary btn-xs' href="{{ url('modifier-rubrique?id='.$rubriqu->id)}}"><span class="fa fa-edit"></span> Modifier</a></td>
-
-
-                <td class="text-center"><a class='btn btn-warning btn-xs' href="{{ url('publier-rubrique')}}"><i class="fa fa-publish"></i> </span> Publier</a></td>
                 <td class="text-center"> <a href="{{ url('Supprimer-rubrique?id='.$rubriqu->id)}}" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Supprimer</a></td>
             </tr>
             @endforeach
@@ -30,6 +27,6 @@
 </div>
 
 <div class="row d-flex justify-content-center">
-{{$rubrique->links()}}
+
 </div>
 @endsection

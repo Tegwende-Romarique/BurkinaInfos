@@ -16,7 +16,7 @@ class CreateRubriquesTable extends Migration
         Schema::create('rubriques', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('categorie');
-            $table->string('status');
+            // $table->string('status');
             $table->timestamps();
         });
     }
