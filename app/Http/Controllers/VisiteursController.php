@@ -23,11 +23,11 @@ class VisiteursController extends Controller
     function store(Request $request)
     {
         $visite=new Visiteur();
-        
-        $visite->nom=$request->nom;
-        $visite->prenom=$request->prenom;
+
+        // $visite->nom=$request->nom;
+        // $visite->prenom=$request->prenom;
         $visite->email=$request->email;
-        $visite->mot_de_passe=$request->mot_de_passe;
+        // $visite->mot_de_passe=$request->mot_de_passe;
         $visite->save();
         return redirect('forme-visiteur')->with('message','Soucription effectuée avec success!');
     }
@@ -39,7 +39,7 @@ class VisiteursController extends Controller
     }
 
     public function email(){
-        
+
         return view('Mail/forme');
     }
 }

@@ -15,11 +15,10 @@ class CreateVisiteurTable extends Migration
     {
         Schema::create('visiteur', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('nom');
-            $table->string('prenom');
+            // $table->string('nom');
+            // $table->string('prenom');
             $table->string('email');
-            $table->string('mot_de_passe');
-           
+            // $table->string('mot_de_passe');
             $table->rememberToken();
             $table->timestamps();
         });

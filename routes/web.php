@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', 'RubriquesController@liste');
 
 Auth::routes();
 
@@ -32,11 +34,11 @@ Route::get('supprimer-visiteur', 'VisiteursController@destroy');
 // les controllers du des Rubriques
 Route::get('Rubrique/forme', 'RubriquesController@forme');
 Route::post('Rubrique/forme', 'RubriquesController@store');
-Route::get('Rubrique/liste', 'RubriquesController@liste');
+// Route::get('Rubrique/liste', 'RubriquesController@liste');
 Route::get('Supprimer-rubrique', 'RubriquesController@destroy');
 Route::get('modifier-rubrique', 'RubriquesController@editer');
 Route::post('rubrique-update', 'RubriquesController@update');
-Route::get('publier-rubrique', 'RubriquesController@publier');
+
 
 
 // les controllers du des articles
